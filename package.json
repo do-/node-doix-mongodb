@@ -1,0 +1,29 @@
+{
+  "name": "doix-mongodb",
+  "version": "1.0.0",
+  "description": "MongoDB support for doix",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/do-/node-doix-mongodb.git"
+  },
+  "keywords": [
+    "doix",
+    "MongoDB"
+  ],
+  "author": "Dmitry Ovsyanko",
+  "license": "MIT",
+  "peerDependencies": {
+    "doix": "^1.0.57"
+  },
+  "bugs": {
+    "url": "https://github.com/do-/node-doix-mongodb/issues"
+  },
+  "dependencies": {
+    "mongodb": "^6.17.0"
+  },
+  "homepage": "https://github.com/do-/node-doix-mongodb#readme"
+}
