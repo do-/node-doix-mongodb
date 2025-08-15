@@ -1,6 +1,6 @@
 {
   "name": "doix-mongodb",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "MongoDB support for doix",
   "main": "index.js",
   "scripts": {
