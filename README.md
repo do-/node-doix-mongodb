@@ -1,10 +1,29 @@
-# doix-db-mongodb
-`doix-db-mongodb` is a plug in for the [doix](https://github.com/do-/node-doix) framework implementing an interface to [MongoDB](https://www.mongodb.com/).
+# doix-mongodb
+`doix-mongodb` is a plug in for the [doix](https://github.com/do-/node-doix) framework implementing an interface to [MongoDB](https://www.mongodb.com/).
 
 # Usage
+## Adding to the project
+In your package.js:
+
+```json
+  "peerDependencies": {
+...
+    "doix-mongodb": "^1.0.0"
+...
+  },
+```
+
+Then,
+
+```sh
+npm i
+```
+
 ## Declaring a Connection Pool at the [Application](https://github.com/do-/node-doix/wiki/Application) Level
 
 ```js
+const MongoDB = require ('doix-mongodb')
+
 module.exports = class extends Application {
 
   constructor (conf, logger) {				
