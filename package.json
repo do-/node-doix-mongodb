@@ -1,6 +1,6 @@
 {
   "name": "doix-mongodb",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "MongoDB support for doix",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
     "url": "https://github.com/do-/node-doix-mongodb/issues"
   },
   "dependencies": {
-    "mongodb": "^6.17.0"
+    "mongodb": "^6.20.0"
   },
   "homepage": "https://github.com/do-/node-doix-mongodb#readme"
 }

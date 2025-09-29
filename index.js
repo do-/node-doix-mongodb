@@ -27,6 +27,14 @@ class Wrapper {
 
 	}
 
+	async find (c, o) {
+
+		this.setupLogId ()
+
+		return this.raw.collection (c).find (o)
+
+	}
+
 	async insertMany (c, a) {
 
 		if (a.length === 0) return
