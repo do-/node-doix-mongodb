@@ -130,6 +130,7 @@ module.exports = class extends ResourcePool {
 				event: 'start',
 				id: this.addLogId (connectionId, requestId),
 				details:
+					commandName === 'find'   ? command.filter :
 					commandName === 'update' ? command.updates :
 					commandName === 'insert' ? command.documents :
 					NO_DETAILS
