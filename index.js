@@ -112,10 +112,9 @@ module.exports = class extends ResourcePool {
 
 	constructor (options) {
 
-		super ()
+		super (options)
 
 		this.dbName = options.dbName
-		this.logger = options.logger
 
 		this.wrapper = Wrapper
 		this.client = new MongoClient (options.url, {monitorCommands:true})

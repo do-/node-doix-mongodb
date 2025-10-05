@@ -1,6 +1,6 @@
 {
   "name": "doix-mongodb",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "MongoDB support for doix",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   "author": "Dmitry Ovsyanko",
   "license": "MIT",
   "peerDependencies": {
-    "doix": "^1.0.57"
+    "doix": "^1.0.61"
   },
   "bugs": {
     "url": "https://github.com/do-/node-doix-mongodb/issues"
